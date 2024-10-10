@@ -1,5 +1,3 @@
-# App Manager
-
 ## Advantages
 
 - **Direct DalvikVM Execution**: Executes directly on the DalvikVM (Android), avoiding the overhead of launching a full app.
