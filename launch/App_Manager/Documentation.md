@@ -2,18 +2,13 @@
 
 - **Direct DalvikVM Execution**: Executes directly on the DalvikVM (Android), avoiding the overhead of launching a full app.
 - **Comprehensive App Information**: Provides detailed information on system and user apps, including:
-   ```Status (ENABLED/DISABLED/UNINSTALLED).
-   > Membership (SYSTEM/USER).
-
-   > App ID.
-
-   > Package name.
-
-   > App path.
-
-   > Common name (Label).
-   ```
-
+  ```Status (ENABLED/DISABLED/UNINSTALLED).
+  - Membership (SYSTEM/USER).
+  - App ID.
+  - Package name.
+  - App path.
+  - Common name (Label).
+  ```
 - **User ID Retrieval**: Quickly fetches the current user ID, useful for identifying the active user.
 - **App Icon Extraction**: Allows the extraction of app icons as PNG files to an external path, enabling easy visual identification of apps.
 
