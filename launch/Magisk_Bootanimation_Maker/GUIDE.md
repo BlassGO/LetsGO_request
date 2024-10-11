@@ -5,7 +5,7 @@
 ## Prerequisites
 - Have an Android device that supports bootanimation.zip (All AOSP Roms)
 
-  **Samsung devices:** OneUI uses another format (.QMG). It will be detected automatically and will ask if you want to change it to the supported one (.ZIP), although this does not always work.{.remark}
+**Samsung devices:** OneUI uses another format (.QMG). It will be detected automatically and will ask if you want to change it to the supported one (.ZIP), although this does not always work.{.remark}
 
 ## Instructions
 1. Create a folder in the internal storage called ``myanim``.
