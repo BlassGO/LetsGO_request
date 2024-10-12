@@ -19,6 +19,8 @@
 ## ADVANCED
 It is possible to configure special options for the generation of the bootanimation. To do this, follow these steps:
 
+**NOTE:** To apply changes to the bootanimation, the module must be reinstalled.
+
 1. Inside ``myanim`` create a file called ``configs.prop`` (make sure its extension is .prop)
    ![myprop](https://i.ibb.co/2Kzdp31/image.png){style="max-width: 400px;"}
 2. Open the file with a text editor and paste this content:
