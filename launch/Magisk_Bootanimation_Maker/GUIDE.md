@@ -11,7 +11,7 @@
 ## Instructions
 1. Create a folder in the internal storage called ``myanim``.
 2. Inside ``myanim``, place a short video (.MP4) or GIF (the file name is not important) that will be converted into a Bootanimation.
-   ![myanim](https://i.ibb.co/M1cVznS/image.png){style="max-width: 270px;"}
+   ![myanim](https://i.ibb.co/M1cVznS/image.png){style="max-width: 500px;"}
 3. Now, install the module by Magisk/KSU.
 4. Reboot and enjoy
 
@@ -20,7 +20,7 @@
 It is possible to configure special options for the generation of the bootanimation. To do this, follow these steps:
 
 1. Inside ``myanim`` create a file called ``configs.prop`` (make sure its extension is .prop)
-   ![myprop](https://i.ibb.co/2Kzdp31/image.png){style="max-width: 270px;"}
+   ![myprop](https://i.ibb.co/2Kzdp31/image.png){style="max-width: 500px;"}
 2. Open the file with a text editor and paste this content:
    ```
    #Bootanimation configs
