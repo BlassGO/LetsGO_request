@@ -5,6 +5,7 @@
     "date": "2024-10-07",
     "category": "MAGISK",
     "description": "Magisk module to apply themes for Infinite Time. All Samsung devices. (Android 10+)",
+    "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/Magisk_ThemeCenterPatch"
   },
   {
@@ -13,6 +14,7 @@
     "date": "2024-10-11",
     "category": "MAGISK",
     "description": "Magisk module to change the Bootanimation of any Android device using a VIDEO or GIF. The bootanimations adapt to the screen size of each device.",
+    "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/Magisk_Bootanimation_Maker"
   }
 ]

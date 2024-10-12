@@ -5,6 +5,7 @@
     "date": "2024-10-02",
     "category": "TOOL",
     "description": "Automates installations for Recovery, Magisk, KSU, and more. It supports multi-architecture and provides extensive modding tools for seamless project management and large-scale modding on Android devices.",
+    "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/Dynamic_Installer"
   },
   {
@@ -12,7 +13,8 @@
     "author": "BlassGO",
     "date": "2023-10-14",
     "category": "TOOL",
-    "description": "A lightweight Android tool to retrieve detailed info on system and user apps, including status, ID, path, and extract app icons via ADB, without the need for additional installations.",
+    "description": "A lightweight Android tool to retrieve detailed info on system and user apps, including status, ID, package, path, label and extract app icons via ADB, without the need for additional installations.",
+    "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/App_Manager"
   }
 ]
