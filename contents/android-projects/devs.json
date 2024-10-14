@@ -21,7 +21,7 @@
     "title": "OMC Decoder",
     "author": "BlassGO",
     "date": "2024-10-14",
-    "category": "TOOL",
+    "category": "MAGISK",
     "description": "Magisk module to Decrypt CSC features on Any Samsung Device.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Magisk_OMC_Decoder"
