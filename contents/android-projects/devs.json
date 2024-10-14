@@ -16,5 +16,14 @@
     "description": "A lightweight Android tool to retrieve detailed info on system and user apps, including status, ID, package, path, label and extract app icons via ADB, without the need for additional installations.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/App_Manager"
+  },
+  {
+    "title": "OMC Decoder",
+    "author": "BlassGO",
+    "date": "2024-10-14",
+    "category": "TOOL",
+    "description": "Magisk module to Decrypt CSC features on Any Samsung Device.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Magisk_OMC_Decoder"
   }
 ]
