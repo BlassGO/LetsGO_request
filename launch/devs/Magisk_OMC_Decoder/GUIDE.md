@@ -10,9 +10,9 @@
 1. Install the module by Magisk/KSU.
 2. Select the preference:
 
-   > **Full OMC decrypt**: Fully decrypt the OMC, including all countries. This will take more time.
-   > 
-   > **Current country only**: Decrypt only the OMC for the current firmware country, decrypting only the features currently in use by the system. This is a lighter option.
+  > **Full OMC decrypt**: Fully decrypt the OMC, including all countries. This will take more time.
+  > 
+  > **Current country only**: Decrypt only the OMC for the current firmware country, decrypting only the features currently in use by the system. This is a lighter option.
 
 3. Reboot
 
