@@ -1,4 +1,7 @@
 ## Instructions
+
+This module can be used both to remove the Booting Warning and to replace native images such as the Bootlogo.
+
 ### Remove the Booting Warning
 1. Install the module by Magisk/KSU.
 ### Change the Bootlogo
@@ -31,7 +34,6 @@ Here are some interesting examples:
 ## ADVANCED
 It is possible to configure special options.
 
-**NOTE:** To apply changes, the module must be reinstalled.
 
 1. Inside ``mylogo`` create a file called ``configs.prop`` (make sure its extension is .prop)
    ![myprop](https://i.ibb.co/Dg8Mwr9/image.png){style="max-width: 400px;"}
