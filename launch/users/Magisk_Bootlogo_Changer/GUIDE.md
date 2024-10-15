@@ -10,6 +10,9 @@
 
 By default, it will always try to remove the Booting Warning. In addition, the images will be adjusted to the resolution of the originals of each device. One logo for multiple devices!{.remark}
 
+## UNINSTALL
+If the module is uninstalled, all changes will be reverted instantly. But only if it is uninstalled from the Manager. Unlike other modules, it cannot be forcibly uninstalled by removing it from ``/data``.
+
 ## SCOPE
 There are many more images in ``PARAM`` besides the ``logo.jpg``. This module covers all of them, because its method consists of searching and comparing images by name. In this way, the only condition is to always use the name of the original images.
 
