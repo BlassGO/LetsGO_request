@@ -16,5 +16,14 @@
     "description": "Magisk module to change the Bootanimation of any Android device using a VIDEO or GIF. The bootanimations adapt to the screen size of each device.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_Bootanimation_Maker"
+  },
+  {
+    "title": "Bootlogo Changer - Exynos",
+    "author": "BlassGO",
+    "date": "2024-10-14",
+    "category": "MAGISK",
+    "description": "Magisk module to change the Bootlogo (and more) of any Samsung device with Exynos. The images adapt to the screen size of each device.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_Bootlogo_Changer"
   }
 ]
