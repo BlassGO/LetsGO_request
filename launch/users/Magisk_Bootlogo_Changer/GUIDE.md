@@ -1,10 +1,3 @@
-# Installation
-
-> This module supports both Magisk, KSU and derivatives.
-
-## Prerequisites
-- Samsung device with Exynos (Other processors use other unsupported implementations).
-
 ## Instructions
 ### Remove the Booting Warning
 1. Install the module by Magisk/KSU.
