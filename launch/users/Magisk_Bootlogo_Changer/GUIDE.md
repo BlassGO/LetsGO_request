@@ -11,7 +11,7 @@
 By default, it will always try to remove the Booting Warning. In addition, the images will be adjusted to the resolution of the originals of each device. One logo for multiple devices!{.remark}
 
 ## SCOPE
-There are many more images in ``PARAM`` besides the ``logo.jpg``. This module covers all of them, because its method consists of searching and comparing images by name. In this way, the only condition is to always use the name of the original images, if they do not match on the device they will simply be ignored.
+There are many more images in ``PARAM`` besides the ``logo.jpg``. This module covers all of them, because its method consists of searching and comparing images by name. In this way, the only condition is to always use the name of the original images.
 
 Here are some interesting examples:
 
