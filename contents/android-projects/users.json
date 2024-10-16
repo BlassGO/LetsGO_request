@@ -25,5 +25,14 @@
     "description": "Magisk module to change the Bootlogo (and more) of any Samsung device with Exynos. The images are adapted to the resolution of the originals of each device.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_Bootlogo_Changer"
+  },
+  {
+    "title": "SetupWizard Pass",
+    "author": "BlassGO & Zonik",
+    "date": "2024-10-15",
+    "category": "RECOVERY",
+    "description": "Force a full pass of the SetupWizard.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Recovery_SetupWizard_Pass"
   }
 ]
