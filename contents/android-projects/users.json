@@ -34,5 +34,14 @@
     "description": "Force a full pass of the SetupWizard.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Recovery_SetupWizard_Pass"
+  },
+  {
+    "title": "FlagSecure Disabler",
+    "author": "BlassGO",
+    "date": "2024-11-06",
+    "category": "MAGISK",
+    "description": "Unlock screenshots in apps that don't allow it.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_FlagSecure_Disabler"
   }
 ]
