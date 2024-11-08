@@ -1,5 +1,4 @@
 # Installation
-
 > This module supports both Magisk, KSU and derivatives.
 
 ## Prerequisites

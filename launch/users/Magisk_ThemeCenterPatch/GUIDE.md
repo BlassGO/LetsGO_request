@@ -1,6 +1,9 @@
 # Installation
-
 > This module supports both Magisk, KSU and derivatives.
+
+## About
+* Tested on Android 10...14
+* You can apply a Theme using the trial time but it will never end
 
 ## Android 10 or Lower:
 1. Install the module by Magisk/KSU.

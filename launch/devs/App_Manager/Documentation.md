@@ -1,12 +1,3 @@
-## Advantages
-
-- **Very light**: Only 5.47KB.
-- **Direct DalvikVM Execution**: It does not require the installation of an app.
-- **Comprehensive App Information**: Provides detailed information on system and user apps, including: Status, Membership, ID, Package name, App path, Common name (Label).
-- **User ID Retrieval**: Quickly fetches the current user ID, to know which user the identified apps belong to.
-- **App Icon Extraction**: Allows the extraction of app icons as PNG files to an external path.
-
-
 ## General use
 Extract the user ID and all the information about system and user apps.
 

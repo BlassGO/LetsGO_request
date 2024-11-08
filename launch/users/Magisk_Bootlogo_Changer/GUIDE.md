@@ -1,6 +1,9 @@
-## Instructions
+# Installation
+> This module supports both Magisk, KSU and derivatives.
 
-This module can be used both to remove the Booting Warning and to replace native images such as the Bootlogo.
+## About
+* Remove the Booting Warning
+* Replace native images like the Bootlogo
 
 ### Remove the Booting Warning
 1. Install the module by Magisk/KSU.
