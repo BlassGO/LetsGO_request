@@ -2,7 +2,7 @@
 
 > This ZIP supports installation via **Recovery**, **Magisk**, **KSU**, and derivatives. It provides a convenient shortcut to access Recovery mode or execute a custom action during the boot process.
 
-## How It Works
+### How It Works
 On each reboot, after the Bootanimation appears, you have **7 seconds** to press the **volume-up button** to trigger the action (default: go to Recovery). If the button is not pressed, the boot process will simply continue as usual.
 
 * Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).
@@ -11,7 +11,7 @@ On each reboot, after the Bootanimation appears, you have **7 seconds** to press
 
 1. Install the ZIP using **Recovery**, **Magisk**, or **KSU**.
 
-## Advanced
+## ADVANCED
 
 You can customize both the action and the wait time limit.
 
