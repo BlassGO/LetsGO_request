@@ -7,13 +7,9 @@ On each reboot, after the Bootanimation appears, you have **7 seconds** to press
 
 Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).{.remark}
 
----
-
 ## Requirements
 
 - **Magisk** or **KSU** must be installed and functional. 
-
----
 
 ## Installation
 
@@ -38,7 +34,7 @@ You can customize both the action and the wait time limit.
    ```
 1. Install the modified ZIP through Recovery.
 
-*Note: This method only applies to Recovery installations, as Magisk/KSU installations typically do not retain the original ZIP name.*
+    *Note: This method only applies to Recovery installations, as Magisk/KSU installations typically do not retain the original ZIP name.*{.remark}
 
 ### Editing the ZIP
 To change the configs for all installation methods (including Magisk/KSU):
@@ -51,5 +47,6 @@ To change the configs for all installation methods (including Magisk/KSU):
    
    # Set the wait time in seconds
    timeout=7
+   ```
 
-*Note: The action must be compatible with the Shell Script environment provided by Magisk/KSU (Busybox)*
+    *Note: The action must be compatible with the Shell Script environment provided by Magisk/KSU (Busybox)*{.remark}
