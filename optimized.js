@@ -27,7 +27,7 @@
     <button class='app-go-back'>&#8592;</button>
     <div class='hosted-window-content'>
     </div>
-`;a.appendChild(i);i.querySelector(".app-go-back").addEventListener("click",function(){i.classList.remove("show");i.classList.add("hide");setTimeout(()=>{i.style.display="none"},300);window.scrollTo({top:u,behavior:"smooth"})})}else{b(t)}v()})});function O(){for(const e in s){if(s.hasOwnProperty(e)){const t=new Image;t.src=s[e];s[e]=t}}}async function U(e){const t=e.querySelectorAll(".app-launcher-container");const n=Array.from(t).map(async e=>{const t=e.dataset.hosted;if(t&&!e.dataset.loaded){if(p[t]){ne(p[t],e)}else{await te(t,e)}e.dataset.loaded="true"}});await Promise.all(n)}async function R(n,o){const e=document.createElement("div");e.classList.add("app-section");e.innerHTML=`
+`;a.appendChild(i);i.querySelector(".app-go-back").addEventListener("click",function(){i.classList.remove("show");i.classList.add("hide");setTimeout(()=>{i.style.display="none"},300);window.scrollTo({top:u,behavior:"smooth"})})}else{b(t)}v()})});function O(){for(const e in s){if(s.hasOwnProperty(e)){const t=new Image;t.src=s[e];s[e]=t}}}async function U(e){const t=e.querySelectorAll(".app-launcher-container");const n=Array.from(t).map(async e=>{const t=e.dataset.hosted;if(t&&!e.dataset.loaded){if(p[t]){ne(p[t],e)}else{await te(t,e)}e.dataset.loaded="true"}});await Promise.all(n)}function R(n,o){const e=document.createElement("div");e.classList.add("app-section");e.innerHTML=`
 <h1>${n.title}
 <img class="share-btn" alt="Share"/>
 <div class='rw-ui-container' data-title='${n.title}'></div>
