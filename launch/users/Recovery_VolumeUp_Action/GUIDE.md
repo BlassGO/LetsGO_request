@@ -11,6 +11,11 @@ On each reboot, after the Bootanimation appears, you have **7 seconds** to press
 
 1. Install the ZIP using **Recovery**, **Magisk**, or **KSU**.
 
+## Uninstall
+* If it was installed by Magisk/KSU, simply uninstall the module
+* If it was installed by Recovery, flash this uninstaller:
+  **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3Z3NWdoaGRuajVzaTlvYS9Wb2x1bWVVUF9CbGFzc0dPJTI1NUJVbmluc3RhbGwlMjU1RC56aXAvZmlsZQ=="}
+
 ## ADVANCED
 
 You can customize both the action and the wait time limit.
