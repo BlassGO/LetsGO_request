@@ -15,7 +15,7 @@ const e=document.getElementById("theme-toggle");const t=document.body;const n=do
         </div>
         <div class='gcards-dynamic'></div>
 
-        <div class='.loading-container'>
+        <div class='loading-container'>
             <div class='loading-circles'>
                 <div class='circle'/>
                 <div class='circle'/>
