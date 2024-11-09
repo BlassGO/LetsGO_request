@@ -2,18 +2,14 @@
 > This ZIP supports Recovery, Magisk, KSU and derivatives.
 
 ## How It Works
-On each reboot, after the Bootanimation appears, you have **7 seconds** to press the **volume-up button** to trigger the action (default: go to Recovery). If the button is not pressed, the boot process will simply continue as usual.
-
+On each reboot, after the Bootanimation appears:
+* You have **7 seconds** to press the **volume-up button** to trigger the action (default: go to Recovery).
+* If the button is not pressed, the boot process will simply continue as usual.
 * Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).
 
-## Installation
+## Instructions
 
-1. Install the ZIP using **Recovery**, **Magisk**, or **KSU**.
-
-## Uninstall
-1. If it was installed by Magisk/KSU, simply uninstall the module
-2. If it was installed by Recovery, flash this uninstaller:
-  **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3Z3NWdoaGRuajVzaTlvYS9Wb2x1bWVVUF9CbGFzc0dPJTI1NUJVbmluc3RhbGwlMjU1RC56aXAvZmlsZQ=="}
+1. Install the ZIP by **Recovery**, **Magisk**, or **KSU**.
 
 ## ADVANCED
 
