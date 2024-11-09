@@ -43,5 +43,14 @@
     "description": "Unlock screenshots in apps that don't allow it.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_FlagSecure_Disabler"
+  },
+  {
+    "title": "VolumeUP Action",
+    "author": "BlassGO",
+    "date": "2024-11-08",
+    "category": "RECOVERY",
+    "description": "Reboot into Recovery mode by pressing Vol+ during Bootanimation.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Recovery_VolumeUp_Action"
   }
 ]
