@@ -2,22 +2,16 @@
 
 > This ZIP supports installation via **Recovery**, **Magisk**, **KSU**, and derivatives. It provides a convenient shortcut to access Recovery mode or execute a custom action during the boot process.
 
-### How It Works
+## How It Works
 On each reboot, after the Bootanimation appears, you have **7 seconds** to press the **volume-up button** to trigger the action (default: go to Recovery). If the button is not pressed, the boot process will simply continue as usual.
 
-Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).{.remark}
-
-## Requirements
-
-- **Magisk** or **KSU** must be installed and functional. 
+* Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).
 
 ## Installation
 
 1. Install the ZIP using **Recovery**, **Magisk**, or **KSU**.
 
----
-
-## ADVANCED
+## Advanced
 
 You can customize both the action and the wait time limit.
 
@@ -34,7 +28,7 @@ You can customize both the action and the wait time limit.
    ```
 1. Install the modified ZIP through Recovery.
 
-    *Note: This method only applies to Recovery installations, as Magisk/KSU installations typically do not retain the original ZIP name.*{.remark}
+This method only applies to Recovery installations, as Magisk/KSU installations typically do not retain the original ZIP name.{.remark}
 
 ### Editing the ZIP
 To change the configs for all installation methods (including Magisk/KSU):
@@ -49,4 +43,4 @@ To change the configs for all installation methods (including Magisk/KSU):
    timeout=7
    ```
 
-    *Note: The action must be compatible with the Shell Script environment provided by Magisk/KSU (Busybox)*{.remark}
+The action must be compatible with the Shell Script environment provided by Magisk/KSU (Busybox){.remark}
