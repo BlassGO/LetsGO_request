@@ -1,6 +1,3 @@
-# Installation
-> This ZIP supports Recovery, Magisk, KSU and derivatives.
-
 ## How It Works
 On each reboot, after the Bootanimation appears:
 * You have **7 seconds** to press the **volume-up button** to trigger the action (default: go to Recovery).
