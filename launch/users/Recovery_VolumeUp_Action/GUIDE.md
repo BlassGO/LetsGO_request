@@ -4,6 +4,9 @@ On each reboot, after the Bootanimation appears:
 * If the button is not pressed, the boot process will simply continue as usual.
 * Useful if you anticipate a potential bootloop and your device requires a USB cable to access Recovery (current Samsung devices).
 
+## Prerequisites
+1. **Magisk** or **KSU** pre-installed and functional
+   
 ## Instructions
 
 1. Install the ZIP by **Recovery**, **Magisk**, or **KSU**.
