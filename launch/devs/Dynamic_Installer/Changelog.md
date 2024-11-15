@@ -2,12 +2,9 @@
 
 > ### Standard
 >
-> - Reverted to Apktool v2.9.0 as the v2.10.0 implemented in DI v5.2 is currently unstable in certain recompilation cases, such as **services.jar**.
-> - Some processes were optimized before the execution of the main script, ensuring faster execution.
-> - Optimized the logic of commonly used functions like **ui_print**, **package_extract_dir**, **package_extract_file**, **defined**, **undefined**, **contains**, and more.
-> - Improved the logic of less frequently used functions involved in the installation process, such as **getarch**, **getdefault**, and others.
-> - The native variable **installzip** is once again read-only to ensure its integrity (it was previously writable as some functions required temporary changes; this practice has been replaced with a local duplication).
-> - Removed the unused native variable **max_arch**.
+> - Restructured and optimized the installer launch logic, requiring fewer processes and reducing the time needed to load the general environment.
+> - Enhanced architecture detection in the launcher to better align with the device's native environment. The parent executable or a related process can now identify **armeabi-v7** architectures. Although this wasn't previously an issue when running DI on **armeabi-v7**, starting with v5.0+ (multi-architecture editions), it could create a semi-functional environment with limitations (utilities like Apktool would unexpectedly fail). This may have gone unnoticed if you've only used DI on **arm64**.
+> - Optimized the logic of functions such as **set_context**, **eval_context**, **get_context**, **eval_perm**, and more.
 
 > ### Z variant
 >
