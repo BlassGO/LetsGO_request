@@ -11,6 +11,8 @@ On each reboot, after the Bootanimation appears:
 
 1. Install the ZIP by **Recovery**, **Magisk**, or **KSU**.
 
+Installation through Recovery is only compatible with Magisk. KSU and similar necessarily need their Manager.{.remark}
+
 ## ADVANCED
 
 You can customize both the action and the wait time limit.
