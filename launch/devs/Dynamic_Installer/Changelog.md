@@ -2,34 +2,14 @@
 
 > ### Standard
 >
-> - **New print format**: PlainMark is a lightweight markup language based purely on Bash, designed to generate preformatted plain text, ideal for environments such as Recovery / Magisk / KSU.
->   
->   Example usage:
->   ```
->   print "
->     <box>
->        <center>
->            Welcome to PlainMark!
->        </center>
->        <linebox/>
->        <center>
->             By @BlassGO | 2024
->        </center>
->    </box>
->   " 50
->   ```
->   
-> - Standardized the use of `zip_list`, `zip_list_file`, `zip_list_dir`. These can now be used to retrieve lists of ZIP file contents in a standardized format, for both the Z variant (7z) and the Standard (unzip).
-> 
-> - Expanded the use of `zip_list` to multiple native functions. This ensures compatibility with the extraction manager for each variant, allowing functions such as `check_content` to handle very large ZIP files if used in a variant that supports it (Z variant).
-> 
-> - Optimized the extraction of `extra.zip`. Previously, there was redundancy during the launcher startup and the subsequent extraction of all addons.
-> 
-> - All contents in `META-INF/addons` will now receive the "setdefault permissions". Previously, this could not be controlled.
-> 
-> - New `setdefault overwrite_symlinks`. This enables or restricts the replacement of symlinks with `package_extract_dir` and `package_extract_file`. Previously, if any destination file matched an existing symlink, it could cause unexpected results, such as overwriting the source file instead of the symlink, or simply an extraction error. This also includes a detailed log report that was not covered in previous versions.
-> 
-> - New `setdefault devices_alert`. This allows disabling the abort and alert when a supported device is not detected by "setdefault devices", enabling manual error handling afterward.
+> - **Deep general maintenance**: Several native functions and variables were restructured to achieve greater efficiency.
+> - Except for commonly used native variables (`$yes`, `$DEVICE`, `$is64bit`, ...), any additional variable used by DI functions with global access now has a reserved "___" prefix. Under this new rule, DI scripts must avoid using variables that start with this prefix to ensure conflict-free execution and prevent critical information loss. Previous versions did not address this potential risk.
+> - The `string` function, responsible for text processing in most native functions, was restructured and optimized. This guarantees more accurate text manipulations in less time.
+> - The `-after-line` and `-before-line` flags now respect the `-recursive` flag within the `string` function and its dependent functions. Previously, it was not possible to limit additions to only the first result. This is now the default mode unless recursion to all results is explicitly specified.
+> - Functions such as `add_lines`, `add_lines_string`, `add_lines_zip`, and `smali_kit` now include the `-recursive` flag to process all available results (as in previous versions). If not specified, they will only operate on the first result. In `smali_kit`, this applies even to text replacements or deletions, allowing for more precise control.
+> - The `try_mount` function, responsible for most partition mounting processes, was restructured and optimized. This ensures faster responses in dependent functions such as `mount_all`.
+> - Redundant functions were replaced with aliases. While this does not affect usage, it slightly improves performance.
+> - The response time of `$yes` was optimized.
 
 > ### Z variant
 >
