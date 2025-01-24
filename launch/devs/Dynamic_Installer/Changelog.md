@@ -2,24 +2,29 @@
 
 > ### Standard
 >
-> - Updated to Apktool 2.11.0 (with baksmali/smali v3.0.9).  
->   - Initial support for Android 15.  
->   - Full de/recompilation (including resources) of simple APKs (like Overlays) that do NOT include images is now possible again. Note: This functionality was buggy in builds made for DI v4.8-b2+. Refer to the BUGs section for details.  
+> - **Bug Fixes:**  
+>   - Fixed the issue when using `package_extract_dir` with a ZIP internal path ending in `/`. This caused unexpected behavior and was present in all previous versions.  
+>   - Fixed the use of optional variables `convert_from` and `convert_to` in the `convert` function.  
 >
-> - **New `setdefault` dalvik_memory**  
->   - Allows changing the maximum memory value assigned to the DalvikVM heap at runtime.  
->   - Ensures the correct functioning of JARs that require higher memory capacity, a need introduced by Apktool 2.11.0 optimizations with threads. These optimizations improve performance but consume more memory during execution.  
->
-> - **Fixes and Improvements:**  
->   - Fixed `setdefault` extraction_speed: Broken in the previous version, potentially causing unexpected errors in `update`, `update_zip`, and `write_raw_image` functions.  
->   - Fixed a small bug in the `string` function (affecting the `remove` flag).  
->   - Ensured escape fixes are applied to the `print` function.  
->   - Optimized `find_apk` function: Now performs filtering more efficiently.  
+> - **Optimizations:**  
+>   - Slightly optimized the `find_block` function.  
+>   - Improved performance of special loops: `loop`, `loop_file`, `loop_string`, and `loop_array`.  
+>   - The `getbins` function now supports external paths.  
 >
 > - **New Features:**  
->   - Added alias `tolog`: Provides a more explicit way to log outputs (equivalent to the `echo2` function).  
->   - Added alias `import`: Provides a more explicit way to import external code (equivalent to the `.` command).  
->   - `dynamic_install_apk` function now supports the `-include-overlays` and `-include-splits` flags. While these may result in unexpected behaviors when used on paths containing apps and overlays (as the app and its overlay would not be distinguished), they can improve performance in controlled environments where certainty about app types exists.  
+>   - **`import_module` function:**  
+>     - Allows importing modules specifically designed for the DI.  
+>     - Modules are simple ZIP files that can contain their own resources, managed individually via their own `module.sh` script.  
+>     - The module’s code is imported into the runtime environment, enabling it to define variables or functions for the main script.  
+>
+>   - **`switch` function:**  
+>     - Facilitates access to structured packages, introducing a new approach for handling plugins within the DI.  
+>     - Allows easy switching between different versions of the same defined package.  
+>     - Supports structured extractions within ZIPs using short keys, eliminating the need to repeatedly specify source and destination paths.  
+>     - Enables script execution within the environment, providing concise modularization and code management in separate files, as well as quick access and execution.  
+>
+>   - **`add_switch` function:**  
+>     - Introduces a flexible standard format for defining new packages for the `switch` function.  
 
 > ### Z variant
 >
