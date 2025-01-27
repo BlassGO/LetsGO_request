@@ -2,7 +2,7 @@
 > This module supports both Magisk, KSU and derivatives.
 
 ## About
-* Tested on Android 10...14
+* Tested on Android 10...15
 * You can take screenshots in apps that don't allow it (WhatsApp view once, Chrome in incognito mode, ...)
 
 ## Instructions
