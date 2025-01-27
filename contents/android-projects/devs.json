@@ -29,9 +29,9 @@
   {
     "title": "Dialog Error Disabler",
     "author": "BlassGO",
-    "date": "2024-11-06",
+    "date": "2025-01-27",
     "category": "MAGISK",
-    "description": "Disables system error dialogs. Only those that are displayed at each boot due to modifications to the Kernel or the System that were detected as a security breach.",
+    "description": "Disables all system error dialogs triggered subsequent to each boot, including those related to kernel or system modifications.",
     "contact": "https://t.me/blassgo",
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Dialog_Error_Disabler"
   }
