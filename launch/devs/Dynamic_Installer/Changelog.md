@@ -4,7 +4,7 @@
 >
 > - **General Improvements:**  
 >   - Optimizations for a slightly faster initial execution.  
->   - Improved compatibility with **KSU Next**. Thanks to **@wdym** for reports and testing.  
+>   - Improved compatibility with **KSU Next**. Thanks to **@[saadelasfur](https://t.me/saadelasfur)** for reports and testing.  
 >   - Optimized the definition of native variables.  
 >   - Enhanced device detection with `setdefault devices`.  
 >
