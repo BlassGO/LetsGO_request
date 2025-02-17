@@ -2,29 +2,31 @@
 
 > ### Standard
 >
+> - **General Improvements:**  
+>   - Optimizations for a slightly faster initial execution.  
+>   - Improved compatibility with **KSU Next**. Thanks to **@wdym** for reports and testing.  
+>   - Optimized the definition of native variables.  
+>   - Enhanced device detection with `setdefault devices`.  
+>
+> - **Maintenance of functions:**  
+>   - **`xml_kit` function:**  
+>     - Fully rebuilt and optimized, making it a top-tier function for editing **XML** (or similar) files in the DI.  
+>     - Now includes **robust logic** for deep structure handling, ensuring safer and more precise modifications.  
+>     - Added support for retrieving **specific values** from the structure using `-get-value`, based on the traversed depth.  
+>
 > - **Bug Fixes:**  
->   - Fixed the issue when using `package_extract_dir` with a ZIP internal path ending in `/`. This caused unexpected behavior and was present in all previous versions.  
->   - Fixed the use of optional variables `convert_from` and `convert_to` in the `convert` function.  
+>   - Fixed `-preserve-addons` flag in `make_zip`, which had been broken for many versions.  
+>   - Fixed variable assignment issues in `multi_option` where some variable names were unavailable.  
 >
-> - **Optimizations:**  
->   - Slightly optimized the `find_block` function.  
->   - Improved performance of special loops: `loop`, `loop_file`, `loop_string`, and `loop_array`.  
->   - The `getbins` function now supports external paths.  
+> - **Extra features:**  
+>   - `remove` and `replace` can now **bypass file readability checks** by setting `-bytes` or `-min-bytes` to `0`. Introduced a new flag **`-no-check`**, equivalent to the above, allowing more flexible file operations.  
 >
-> - **New Features:**  
->   - **`import_module` function:**  
->     - Allows importing modules specifically designed for the DI.  
->     - Modules are simple ZIP files that can contain their own resources, managed individually via their own `module.sh` script.  
->     - The module’s code is imported into the runtime environment, enabling it to define variables or functions for the main script.  
->
->   - **`switch` function:**  
->     - Facilitates access to structured packages, introducing a new approach for handling plugins within the DI.  
->     - Allows easy switching between different versions of the same defined package.  
->     - Supports structured extractions within ZIPs using short keys, eliminating the need to repeatedly specify source and destination paths.  
->     - Enables script execution within the environment, providing concise modularization and code management in separate files, as well as quick access and execution.  
->
->   - **`add_switch` function:**  
->     - Introduces a flexible standard format for defining new packages for the `switch` function.  
+> - **New Functions:**  
+>   - **`random` function:**  
+>     - Generates **pseudo-random numbers** and allows setting a limit.  
+>   - **`map_file_props` function:**  
+>     - Similar to `get_file_prop`, but supports searching **multiple properties** in a single file or across multiple files.  
+>     - Assign an **ordered array** of values, maintaining the search property order regardless of their position in the files.  
 
 > ### Z variant
 >
