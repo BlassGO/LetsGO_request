@@ -1,5 +1,14 @@
 [
   {
+    "title": "Instant IMG-RAW Edit",
+    "author": "BlassGO",
+    "date": "2025-02-20",
+    "category": "MAGISK",
+    "description": "A powerful tool that allows direct editing or access to contents of RAW and SUPER images from your Android device. Edit in seconds without waiting to decompile or recompile.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Instant_IMG_RAW_Edit"
+  },
+  {
     "title": "Dynamic Installer",
     "author": "BlassGO",
     "date": "2025-02-17",
