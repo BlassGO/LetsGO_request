@@ -20,4 +20,4 @@ If you want to include the changes directly in the system (for example for a Cus
     * Include proper credits and acknowledge the original source of the modifications in your ROM's documentation.
 
 ## Common Dialog Error
-![dialogerror](https://i.ibb.co/8stFG0n/image.png){style="max-width: 400px;"}
+![dialogerror](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/launch/devs/Dialog_Error_Disabler/images/dialog.png){style="max-width: 400px;"}

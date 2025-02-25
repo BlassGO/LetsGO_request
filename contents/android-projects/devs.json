@@ -38,7 +38,7 @@
   {
     "title": "Dialog Error Disabler",
     "author": "BlassGO",
-    "date": "2025-01-27",
+    "date": "2025-02-25",
     "category": "MAGISK",
     "description": "Disables all system error dialogs triggered subsequent to each boot, including those related to kernel or system modifications.",
     "contact": "https://t.me/blassgo",
