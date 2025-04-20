@@ -4,4 +4,4 @@
 
 > ### Z variant
 > It includes a "**7zip**" binary embedded from quite early points in the installation to handle extractions. If your final compressed project exceeds **3.5GB**{style="color: #27ae60;"}, consider trying this version. Requires either the "**base64**" or the "**awk**" command to exist.
-> **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3N2M3JxNWJlZXl6cnQ5bi9EeW5hbWljX0luc3RhbGxlcl9CbGFzc0dPJTI1NUI1LjQtYjNaJTI1NUQuemlwL2ZpbGU="}
+> **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3V2YzY4and0cmNtendvaS9EeW5hbWljX0luc3RhbGxlcl9CbGFzc0dPJTI1NUI1LjQtYjNaJTI1NUQuemlwL2ZpbGU="}
