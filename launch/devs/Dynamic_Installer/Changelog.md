@@ -6,9 +6,7 @@
 > - Now includes the extra `customize.sh` and `module.prop` in the **root of the ZIP** by default. This ensures compatibility with **KernelSU**, **Magisk v28+**, and similar module managers.
 >   - These are the same files that previously had to be **added manually** to enable such compatibility.
 >   - The `customize.sh` of the Magisk Space is still used.
-> - Optimized **execution permission handling**:  
->    - Previously, execution functions (`run`, `run_wait`, `run_program`) always reassigned permissions.  
->    - Now, permissions are only reassigned **when truly necessary**, and only the **minimum required** for execution.  
+> - Optimized **execution behavior and permission handling**: execution permissions are now only reassigned when **strictly necessary**, avoiding redundant operations when running binaries or scripts. 
 > - Improved **file injection** logic across multiple functions. Removed redundant operations, making file modifications slightly faster.  
 > - `patch_apk` function has been optimized to be more efficient and aligned with the latest DI standards, reducing error occurrences.  
 >
