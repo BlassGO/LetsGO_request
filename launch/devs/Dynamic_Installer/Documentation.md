@@ -1,5 +1,5 @@
 # Dynamic Installer
-[See more on XDA](https://xdaforums.com/t/zip-dual-installer-dynamic-installer-stable-5-1-b2-android-10-or-earlier.4279541/){.download-button}
+[See more here](https://blassgo.github.io/DynamicInstaller_Doc/){.download-button}
 - **Self-Contained Environment:**
   Creates its own environment using Busybox and Bash.
 - **Installation Automation:**
