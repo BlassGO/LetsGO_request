@@ -1,8 +1,6 @@
 ## Changelog
 
-## Changelog
-
-> ### Stable
+> ### Standard
 >
 > - **New `setdefault` option:**
 >   - `framework_res`: Allows defining which `framework-res` files to use with `dynamic_apktool` and `apktool`. Supports multiple frameworks and ensures they are only installed once per session.
