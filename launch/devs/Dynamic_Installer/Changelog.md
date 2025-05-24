@@ -1,17 +1,25 @@
 ## Changelog
 
-> ### Standard
+## Changelog
+
+> ### Stable
 >
-> - **Apktool** updated to **v2.11.1** (with **baksmali/smali 3.0.9**).  
-> - Now includes the extra `customize.sh` and `module.prop` in the **root of the ZIP** by default. This ensures compatibility with **KernelSU**, **Magisk v28+**, and similar module managers.
->   - These are the same files that previously had to be **added manually** to enable such compatibility.
->   - The `customize.sh` of the Magisk Space is still used.
-> - Optimized **execution behavior and permission handling**: execution permissions are now only reassigned when **strictly necessary**, avoiding redundant operations when running binaries or scripts. 
-> - Improved **file injection** logic across multiple functions. Removed redundant operations, making file modifications slightly faster.  
-> - `patch_apk` function has been optimized to be more efficient and aligned with the latest DI standards, reducing error occurrences.  
+> - **New `setdefault` option:**
+>   - `framework_res`: Allows defining which `framework-res` files to use with `dynamic_apktool` and `apktool`. Supports multiple frameworks and ensures they are only installed once per session.
 >
-> - New **`is_exec` function:** Verifies execution permissions on any file or folder.  
+> - **Improvements to `xml_kit`:**
+>   - Fixed bugs when matching closing tags like `</name>` or `name` to avoid false matches with self-closing tags like `<name/>`, and vice versa.
+>   - Now supports tags with attributes spread across multiple lines, which were previously undetectable.
+>   - Tag searches can now include attribute filtering, either by checking for the existence of attributes or by matching specific values.
+>
+> - **Improvements to `dynamic_apktool`:**
+>   - Enhanced detection of special directories such as `res/` and `assets/`, even when their names are non-standard. This ensures that all relevant content is included in the final APK/JAR, especially useful for Samsung JARs cases.
+>   - Removed deprecated flag `-framework` in favor of the new dedicated `setdefault`.
+>   - Removed `-command` flag; now, any unrecognized flags are passed directly to Apktool, improving clarity and usability.
+>   - Removed `-no-api` flag in favor of native detection in Apktool.
+>   - Added new flags `-smali-command` and `-baksmali-command` to allow passing custom arguments to baksmali/smali, only used with `-use-smali` or `-use-baksmali`.
+
 
 > ### Z variant
 >
-> - Same as the Standard version. With the exception of the addition of the extra `customize.sh` and `module.prop` files, because the Standard variant is the usual and recommended for modules.
+> - Same as the Standard version.
