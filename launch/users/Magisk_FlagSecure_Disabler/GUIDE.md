@@ -1,15 +1,15 @@
-# Installation
+# 🔒 FlagSecure Disabler 🔒
 > This module supports both Magisk, KSU and derivatives.
 
-## About
+## ℹ️ About
 * Tested on Android 10...15
 * You can take screenshots in apps that don't allow it (WhatsApp view once, Chrome in incognito mode, ...)
 
-## Instructions
+## 🛠️ Instructions
 1. Install the module by Magisk/KSU.
 2. Wait patiently, the process may take a while
 
-## For Devs
+## 👨‍💻 For Devs
 If you want to include the changes directly in the system (for example for a Custom ROM):
 
 1. **Copy the necessary files:** 

@@ -1,21 +1,19 @@
-# Installation
+# 🎬 Bootanimation Maker 🎬
 > This module supports both Magisk, KSU and derivatives.
 
-## Prerequisites
+## 🔧 Prerequisites
 - Have an Android device that supports bootanimation.zip (All AOSP Roms)
 
 **Samsung devices:** OneUI uses another format (.QMG). It will be detected automatically and will ask if you want to change it to the supported one (.ZIP), although this does not always work.{.remark}
 
-
-## Instructions
+## 🛠️ Instructions
 1. Create a folder in the internal storage called ``myanim``.
 2. Inside ``myanim``, place a short video (.MP4) or GIF (the file name is not important) that will be converted into a Bootanimation.
    ![myanim](https://i.ibb.co/M1cVznS/image.png){style="max-width: 400px;"}
 3. Now, install the module by Magisk/KSU.
 4. Reboot and enjoy
 
-
-## ADVANCED
+## 🛠️ ADVANCED
 It is possible to configure special options for the generation of the bootanimation. To do this, follow these steps:
 
 **NOTE:** To apply changes to the bootanimation, the module must be reinstalled.

@@ -1,21 +1,23 @@
-# Installation
+# 📸 Bootlogo Changer 📸
 > This module supports both Magisk, KSU and derivatives.
 
+## 🛠️ Instructions
 ### Remove the Booting Warning
 1. Install the module by Magisk/KSU.
+
 ### Change the Bootlogo
 1. Create a folder in the internal storage called ``mylogo``.
-3. Inside ``mylogo``, place a JPG image that must be called ``logo.jpg``.
+2. Inside ``mylogo``, place a JPG image that must be called ``logo.jpg``.
    ![mylogo](https://i.ibb.co/wpg9n1z/image.png){style="max-width: 400px;"}
-4. Now, install the module by Magisk/KSU.
-5. Reboot and enjoy
+3. Now, install the module by Magisk/KSU.
+4. Reboot and enjoy
 
 By default, it will always try to remove the Booting Warning. In addition, the images will be adjusted to the resolution of the originals of each device. One logo for multiple devices!{.remark}
 
-## UNINSTALL
+## 🗑️ Uninstallation
 If the module is uninstalled, all changes will be reverted instantly. But only if it is uninstalled from the Manager. Unlike other modules, it cannot be forcibly uninstalled by removing it from ``/data``.
 
-## SCOPE
+## 🔍 Scope
 There are many more images in ``PARAM`` besides the ``logo.jpg``. This module covers all of them, because its method consists of searching and comparing images by name. In this way, the only condition is to always use the name of the original images.
 
 Here are some interesting examples:

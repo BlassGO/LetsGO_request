@@ -1,24 +1,16 @@
 # 🛑 Dialog Error Disabler 🛑
 > This module supports both Magisk, KSU and derivatives.
 
----
-
 ## 🚨 DISCLAIMER
 > By downloading, installing, or using this module, you acknowledge and agree that you assume full responsibility for any and all risks. The developer is not liable for any damage to your device, data loss, soft-bricks, hard-bricks, or any other issues that may arise from its use.
-
----
 
 ## ℹ️ About
 * Tested on Android 10...15
 * Disables all system-level error dialogs, including those related to kernel and system modifications.
 
----
-
 ## 🛠️ Instructions
 1. Install the module by Magisk/KSU.
 2. Wait patiently, the process may take a while
-
----
 
 ## 👨‍💻 For Devs
 If you want to include the changes directly in the system (for example for a Custom ROM):
