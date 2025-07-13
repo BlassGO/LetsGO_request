@@ -27,6 +27,15 @@
     "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/App_Manager"
   },
   {
+    "title": "KnoxGuard Disabler",
+    "author": "BlassGO",
+    "date": "2025-07-13",
+    "category": "MAGISK",
+    "description": "Disables the device screen lock caused by a removed KnoxGuard (KGClient) on any Samsung device.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/KnoxGuard_Disabler"
+  },
+  {
     "title": "OMC Decoder",
     "author": "BlassGO",
     "date": "2024-10-14",
