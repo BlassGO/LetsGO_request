@@ -5,6 +5,6 @@
 > ### ☕ Support
 > A coffee helps me keep it updated!
 > 
-> [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/BlassGO){target="_blank" style="height: 50px !important;width: 170px !important;"}
+> [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png){style="height: 50px !important;width: 170px !important;"}](https://www.buymeacoffee.com/BlassGO){target="_blank"}
 
 .
