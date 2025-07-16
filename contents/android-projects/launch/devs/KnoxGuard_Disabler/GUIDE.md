@@ -18,4 +18,4 @@ Once you've confirmed the patch works properly on your device, apply it to your 
 1. Copy or ask your tester for `/system/framework/services.jar`.
 2. Please include proper credits and acknowledge the original source of these modifications in your ROM's documentation.
 ## 📎 Attachments
-![dialogerror](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/launch/devs/KnoxGuard_Disabler/images/lock.jpg){style="max-width: 400px;"}
+![dialogerror](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/contents/android-projects/launch/devs/KnoxGuard_Disabler/images/lock.jpg){style="max-width: 400px;"}

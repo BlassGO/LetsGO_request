@@ -15,7 +15,7 @@
 ## 🛠️ Instructions
 1. Create a folder named `raw_img` in your internal storage.
 2. Place your IMG files inside the folder.
-   ![mylogo](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/launch/devs/Instant_IMG_RAW_Edit/images/path.jpg){style="max-width: 400px;"}
+   ![mylogo](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/contents/android-projects/launch/devs/Instant_IMG_RAW_Edit/images/path.jpg){style="max-width: 400px;"}
 3. Install the ZIP using Magisk or KSU.
 4. The installation process will remain active until you press any Volume button (**Do not close the MANAGER!**).
 5. Use any root file explorer to navigate to `/mnt/INSTANT_RAW_EDIT` and edit or copy files as needed.
