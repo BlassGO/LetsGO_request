@@ -1,5 +1,8 @@
-# 📸 Bootlogo Changer 📸
+# 📸 Bootlogo Changer
 > This module supports both Magisk, KSU and derivatives.
+
+## 🚨 DISCLAIMER
+> By downloading, installing, or using this module, you acknowledge and agree that you assume full responsibility for any and all risks. The developer is not liable for any damage to your device, data loss, soft-bricks, hard-bricks, or any other issues that may arise from its use.
 
 ## 🛠️ Instructions
 ### Remove the Booting Warning

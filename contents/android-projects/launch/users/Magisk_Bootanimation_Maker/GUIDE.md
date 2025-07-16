@@ -1,4 +1,4 @@
-# 🎬 Bootanimation Maker 🎬
+# 🎬 Bootanimation Maker
 > This module supports both Magisk, KSU and derivatives.
 
 ## 🔧 Prerequisites

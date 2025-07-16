@@ -6,7 +6,7 @@
     "category": "MAGISK",
     "description": "Magisk module to apply themes for Infinite Time. All Samsung devices. (Android 10+)",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_ThemeCenterPatch"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Magisk_ThemeCenterPatch"
   },
   {
     "title": "Bootanimation Maker",
@@ -15,7 +15,7 @@
     "category": "MAGISK",
     "description": "Magisk module to change the Bootanimation of any Android device using a VIDEO or GIF. The bootanimations adapt to the screen size of each device.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_Bootanimation_Maker"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Magisk_Bootanimation_Maker"
   },
   {
     "title": "Bootlogo Changer - Exynos",
@@ -24,7 +24,7 @@
     "category": "MAGISK",
     "description": "Magisk module to change the Bootlogo (and more) of any Samsung device with Exynos. The images are adapted to the resolution of the originals of each device.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_Bootlogo_Changer"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Magisk_Bootlogo_Changer"
   },
   {
     "title": "SetupWizard Pass",
@@ -33,7 +33,7 @@
     "category": "RECOVERY",
     "description": "Force a full pass of the SetupWizard.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Recovery_SetupWizard_Pass"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Recovery_SetupWizard_Pass"
   },
   {
     "title": "FlagSecure Disabler",
@@ -42,7 +42,7 @@
     "category": "MAGISK",
     "description": "Unlock screenshots in apps that don't allow it.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Magisk_FlagSecure_Disabler"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Magisk_FlagSecure_Disabler"
   },
   {
     "title": "VolumeUP Action",
@@ -51,6 +51,6 @@
     "category": "RECOVERY",
     "description": "Reboot into Recovery mode by pressing Vol+ during Bootanimation.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/users/Recovery_VolumeUp_Action"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/users/Recovery_VolumeUp_Action"
   }
 ]

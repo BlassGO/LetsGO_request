@@ -1,4 +1,4 @@
-# 🔄 VolumeUp Action 🔄
+# 🔄 VolumeUp Action
 > This module supports both Magisk, KSU and derivatives.
 
 ## ℹ️ About

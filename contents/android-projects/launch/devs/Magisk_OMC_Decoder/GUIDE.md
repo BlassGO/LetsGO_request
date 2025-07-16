@@ -1,4 +1,4 @@
-# 🔓 Magisk OMC Decoder 🔓
+# 🔓 Magisk OMC Decoder
 > This module supports both Magisk, KSU and derivatives.
 
 ## 🚨 DISCLAIMER

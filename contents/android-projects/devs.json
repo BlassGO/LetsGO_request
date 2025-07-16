@@ -6,7 +6,7 @@
     "category": "MAGISK",
     "description": "A powerful tool that allows direct editing or access to contents of RAW and SUPER images from your Android device. Edit in seconds without waiting to decompile or recompile.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Instant_IMG_RAW_Edit"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/Instant_IMG_RAW_Edit"
   },
   {
     "title": "Dynamic Installer",
@@ -15,7 +15,7 @@
     "category": "FRAMEWORK",
     "description": "Helps automate installations for Recovery, Magisk, KSU, and more. It supports multi-architecture and provides extensive modding tools for seamless project management and large-scale modding on Android devices.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Dynamic_Installer"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/Dynamic_Installer"
   },
   {
     "title": "App Manager",
@@ -24,7 +24,7 @@
     "category": "TOOL",
     "description": "A lightweight Android tool to retrieve detailed info on system and user apps, including status, ID, package, path, label and extract app icons via ADB, without the need for additional installations.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/App_Manager"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/App_Manager"
   },
   {
     "title": "KnoxGuard Disabler",
@@ -33,7 +33,7 @@
     "category": "MAGISK",
     "description": "Disables the device screen lock caused by a removed KnoxGuard (KGClient) on any Samsung device.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/KnoxGuard_Disabler"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/KnoxGuard_Disabler"
   },
   {
     "title": "OMC Decoder",
@@ -42,7 +42,7 @@
     "category": "MAGISK",
     "description": "Magisk module to Decrypt CSC features on Any Samsung Device.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Magisk_OMC_Decoder"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/Magisk_OMC_Decoder"
   },
   {
     "title": "Dialog Error Disabler",
@@ -51,6 +51,6 @@
     "category": "MAGISK",
     "description": "Disables all system error dialogs triggered subsequent to each boot, including those related to kernel or system modifications.",
     "contact": "https://t.me/blassgo",
-    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/launch/devs/Dialog_Error_Disabler"
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/android-projects/launch/devs/Dialog_Error_Disabler"
   }
 ]

@@ -1,3 +1,11 @@
 [
-  
+  {
+    "title": "App Manager GUI",
+    "author": "BlassGO",
+    "date": "2024-07-16",
+    "category": "TOOL",
+    "description": "A cross-platform tool for managing Android applications from your desktop using ADB. Allows uninstalling OEM apps without root access.",
+    "contact": "https://t.me/blassgo",
+    "dataHosted": "https://api.github.com/repos/BlassGO/LetsGO_request/contents/contents/linux-projects/launch/users/AppManager-GUI"
+  }
 ]

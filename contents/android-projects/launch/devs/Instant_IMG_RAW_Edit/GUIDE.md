@@ -1,4 +1,4 @@
-# 🎨 Instant IMG RAW Edit 🎨
+# 🎨 Instant IMG RAW Edit
 > This module supports both Magisk, KSU and derivatives.
 
 ## 🚨 DISCLAIMER

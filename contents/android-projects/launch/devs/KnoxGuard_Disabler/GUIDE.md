@@ -1,4 +1,4 @@
-# 🛡️ KnoxGuard-Disabler 🛡️
+# 🛡️ KnoxGuard-Disabler
 > This module supports both Magisk, KSU and derivatives.
 
 ## 🚨 DISCLAIMER

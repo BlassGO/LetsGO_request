@@ -1,4 +1,4 @@
-# 🔐 SetupWizard Pass 🔐
+# 🔐 SetupWizard Pass
 > This module supports both Magisk, KSU and derivatives.
 
 ## ℹ️ About
