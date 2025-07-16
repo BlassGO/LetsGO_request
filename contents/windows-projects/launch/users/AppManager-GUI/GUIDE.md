@@ -8,7 +8,7 @@
 
 ## 🚀 Windows
 1. **Download**:
-   Get `app_manager.zip` from [GitHub Releases](https://github.com/BlassGO/AppManager-GUI/releases).
+   Get `app_manager.zip` from [GitHub Releases](https://github.com/BlassGO/AppManager-GUI/releases){target="_blank"}.
 2. **Extract**:
    Unzip to a folder (`C:\AppManager` or custom).
 3. **Connect Device**:

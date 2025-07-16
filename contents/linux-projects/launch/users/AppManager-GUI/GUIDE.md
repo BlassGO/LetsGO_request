@@ -8,7 +8,7 @@
 
 ## 🚀 Linux
 1. **Download**:
-   Get `app_manager.tar.gz` from [GitHub Releases](https://github.com/BlassGO/AppManager-GUI/releases).
+   Get `app_manager.tar.gz` from [GitHub Releases](https://github.com/BlassGO/AppManager-GUI/releases){target="_blank"}.
 2. **Extract**:
    ```bash
    tar -xzf app_manager_linux_x64.tar.gz -C ~/AppManager
