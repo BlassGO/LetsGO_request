@@ -13,16 +13,10 @@
 2. Wait patiently, the process may take a while
 
 ## 👨‍💻 For Devs
-If you want to include the changes directly in the system (for example for a Custom ROM):
+Once you've confirmed the patch works properly on your device, apply it to your Custom ROM as follows:
 
-1. **Copy the necessary files:** 
-    * Locate the files within the module's system directory: `/data/adb/modules/dialog-error-disabler/system`
-    * Copy these files to the corresponding system directories. 
-
-2. **Acknowledge the source:** 
-    * Include proper credits and acknowledge the original source of the modifications in your ROM's documentation.
-
----
+1. Copy or ask your tester for `/system/framework/services.jar`.
+2. Please include proper credits and acknowledge the original source of these modifications in your ROM's documentation.
 
 ## 📎 Attachments
-![dialogerror](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/launch/devs/Dialog_Error_Disabler/images/dialog.png){style="max-width: 400px;"}
+![dialogerror](https://raw.githubusercontent.com/BlassGO/LetsGO_request/main/contents/android-projects/launch/devs//Dialog_Error_Disabler/images/dialog.png){style="max-width: 400px;"}
