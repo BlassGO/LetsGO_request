@@ -1,6 +1,6 @@
 > ### Magisk/KSU Module
 > Be sure to read the Installation Instructions.
-> **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL291OXQyM3B3ZWhsd3Zyby9GbGFnU2VjdXJlRGlzYWJsZXJfQmxhc3NHTyUyNTVCdjEuMi4yLURSTSUyNTVELnppcC9maWxl"}
+> **Download**{data-download-url="aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlLzl5MDB3ZnI1dWZveWd2bi9GbGFnU2VjdXJlRGlzYWJsZXJfQmxhc3NHTyUyNTVCdjEuMi4yLURSTSUyNTVELnppcC9maWxl"}
 
 > ### ☕ Support
 > A coffee helps me keep it updated!
